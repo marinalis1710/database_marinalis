@@ -11,3 +11,4 @@ concat(round(count(bartenderbar.bartender_name)*100/(
 select count(*) from bartenderbar)),'%') as procent_of_total_bartenders from bartenderbar
 group by bartenderbar.bar_name
 
+--Зависимость кол-ва коктейлей от локации
