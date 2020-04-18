@@ -26,14 +26,14 @@ bar_name varchar(30) PRIMARY KEY
 , location varchar(20) 
 );
 
-create table BarBartender (
-bar_name varchar(40) references Bar(bar_name),
-bartender_name varchar(40) references Bartender(bartender_name),
-primary key (bar_name, bartender_name)
+create table BartenderBar(
+bartender_name varchar(30) references Bartender(bartender_name),
+bar_name varchar(30) references Bar(bar_name),
+primary key(bartender_name)
 );
 
-create table BartenderCocktail(
-bartender_name varchar(40) references Bartender(bartender_name),
-cocktail_name varchar(40) references Cocktail(cocktail_name),
-primary key(bartender_name, cocktail_name)
+create table CocktailBartender(
+cocktail_name varchar(30) references Cocktail(cocktail_name),
+bartender_name varchar(30) references Bartender(bartender_name),
+primary key(cocktail_name)
 );
