@@ -4,7 +4,7 @@
 
 CREATE TABLE  Cocktails 
 (
-cocktail_name varchar(20) NOT NULL
+cocktail_name varchar(50) NOT NULL PRIMARY KEY
 );
 
 -------------------------
@@ -13,8 +13,7 @@ cocktail_name varchar(20) NOT NULL
 
 CREATE TABLE Bartenders
 (
-bartender_name varchar(30) NOT NULL
-, cocktail_name varchar(20) NOT NULL
+bartender_name varchar(30) PRIMARY KEY
 );
 
 -------------------------
@@ -23,22 +22,18 @@ bartender_name varchar(30) NOT NULL
 
 CREATE TABLE Bars
 (
-bar_name varchar(30) NOT NULL
-, bartender_name varchar(30) NOT NULL
-, location varchar(20) NOT NULL
+bar_name varchar(30) PRIMARY KEY
+, location varchar(20) 
 );
 
-----------------------
--- Define primary keys
-----------------------
-ALTER TABLE Cocktails ADD CONSTRAINT PK_Cocktails PRIMARY KEY (cocktail_name);
-ALTER TABLE Bartenders ADD CONSTRAINT PK_Bartenders PRIMARY KEY (bartender_name);
-ALTER TABLE Bars ADD CONSTRAINT PK_Bars PRIMARY KEY (bar_name);
+create table BarBartender (
+bar_name varchar(40) references Bar(bar_name),
+bartender_name varchar(40) references Bartender(bartender_name),
+primary key (bar_name, bartender_name)
+);
 
-----------------------
--- Define foreign keys
-----------------------
-ALTER TABLE Bartenders
-ADD CONSTRAINT FK_Bartenders_Cocktails FOREIGN KEY (cocktail_name) REFERENCES Cocktails (cocktail_name);
-ALTER TABLE Bars
-ADD CONSTRAINT FK_Bars_Bartenders FOREIGN KEY (bartender_name) REFERENCES Bartenders (bartender_name);
+create table BartenderCocktail(
+bartender_name varchar(40) references Bartender(bartender_name),
+cocktail_name varchar(40) references Cocktail(cocktail_name),
+primary key(bartender_name, cocktail_name)
+);
