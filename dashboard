@@ -1,0 +1,29 @@
+import chart_studio
+chart_studio.tools.set_credentials_file(username='mLisichenko', api_key='rLe5IE9YwSHvKavAOmQr')
+import plotly.graph_objects as go
+import chart_studio.plotly as py
+import cx_Oracle
+
+username = 'Marina'
+password = 'xu40e5'
+database = 'localhost/xe'
+connection = cx_Oracle.connect(username, password, database)
+cursor = connection.cursor()
+
+print("Запит 1: Кіл-ть барменів в кожному барі")
+query1 = """
+select bartenderbar.bar_name,
+count(bartenderbar.bartender_name) as total_bartenders from bartenderbar
+group by bartenderbar.bar_name
+order by total_bartenders desc
+"""
+cursor.execute(query1)
+
+names = []
+values = []
+for data in cursor.fetchall():
+    names.append(data[0])
+    values.append(data[1])
+
+bar = go.Bar(x=names, y=values)
+py.plot([bar], auto_open=True, filename='oracle-data')
