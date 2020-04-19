@@ -115,7 +115,7 @@ my_dboard.insert(box_1)
 my_dboard.insert(box_2, 'below', 1)
 my_dboard.insert(box_3, 'right', 2)
 
-py.dashboard_ops.upload(my_dboard, 'LaLiga')
+py.dashboard_ops.upload(my_dboard, 'lab2')
 
 cursor.close()
 connection.close()
