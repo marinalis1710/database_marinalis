@@ -13,17 +13,13 @@ group by humanbar.bar_name
 order by procent_of_total_bartenders desc
 
 --зависимость кол-ва коктейлей от расположения бара
-             
-select count(cocktailbartender.cocktail_name) as quantity_of_cocktails,
-bar.location
-from cocktailbartender
-             
---join bartender_name
-             
-left join bartenderbar on bartenderbar.bartender_name=cocktailbartender.bartender_name
 
---join bar_name
-             
-left join bar on bar.bar_name=bartenderbar.bar_name
-group by bar.location
+select count(humancocktail.cocktail_name) as quantity_of_cocktails,
+bar.city_name
+from humancocktail          
+--join bartender_name             
+left join humanbar on humanbar.human_name=humancocktail.human_name
+--join bar_name         
+left join bar on bar.bar_name=humanbar.bar_name
+group by bar.city_name
 order by quantity_of_cocktails desc
