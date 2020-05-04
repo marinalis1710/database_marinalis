@@ -1,459 +1,621 @@
+--Импорт в таблицу Бар
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Olive Oak', 'St. Louis');
 
---Данные в Cocktail
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Cherry Blossom PUB', 'Washington DC');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Flor de Amaras');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Farina', 'San Francisco');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The Happy Place');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Bon Voyage Pisco Punch');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Alembic', 'San Francisco');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Still Life of a Pineapple');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('One Sixty Blue', 'Chicago, Ill');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The Bittered Valley');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Partender', 'San Francisco');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('OH Snap!');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Wabash Avenue Sour');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('IPA Mule');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Ritz Cocktail');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('King''s Snap the Chocolate Out of You');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Happiness');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Fourth Generation');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('West Coast Punch');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Mille Miglia');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Paradiso Sun');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Lux Orchard Lemonade');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Cut & Rum');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The King''s Spring Daisy');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The King''s Ginger Spiced Punch');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('War of the Roses');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The King''s Medicine');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('A.Nise');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Down the Rabbit Hole');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Peace Daiquiri');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The King''s Autumn Cobbler');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The Mad King');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('The Robert Baratheon');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Lux Shandy');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Fiona Graham');
-
-INSERT INTO COCKTAIL (COCKTAIL_NAME) 
-VALUES ('Le Sang et Sable');
-
-
-
-
-
-
---Данные в Bar
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Backbar', 'Somerville');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Pacific Cocktail Haven', 'San Francisco');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('American Oak', 'Alameda');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('AMK Kitchen Bar', 'Chicago');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Mister Jiu''s', 'San Francisco');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('The Forgery', 'San Francisco');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Blackbird', 'San Francisco');
-
-INSERT INTO BAR (BAR_NAME, LOCATION) 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
 VALUES ('Osha', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Tony''s Pizza Napoletana', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Eastern Standard', 'Boston');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Republic Street Bar', 'Fort Worth');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
 VALUES ('The Bon Vivants', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Best Intentions', 'Chicago');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Wingtip', 'San Francisco');
 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Blackbird', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Padrecito', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Treo', 'New Orleans');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Tippling Hall', 'Chicago');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Pabu', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Harper & Rye', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Fog Harbor Fish House', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('The Olde Bar', 'Philadelphia');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Backbar', 'Somerville');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Walter Foods', 'Brooklyn');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Blackbird', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('The Gin Room', 'St. Louis');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Small Victory', 'Austin');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('PDT ', 'New York');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Usual', 'Fort Worth');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Wildhawk', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Treo', 'New Orleans');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Presidio Social Club', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Hotel Monteleone', 'New Orleans');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('NEAT', 'Westport');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Tin Roof Drink Community', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Stookey''s Club Moderne', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Jupiter Olympus ', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('ABV', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Juliet Ristorante', 'Austin');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('Local Edition', 'San Francisco');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Treo', 'New Orleans');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
-VALUES ('The Cedars Social', 'Dallas');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Urchin Bistrot', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Trick Dog', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
 VALUES ('Turnkey', 'San Francisco');
 
-INSERT INTO BAR (BAR_NAME, LOCATION) 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Burritt Tavern', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Tooker Alley', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Hotel Monteleone', 'New Orleans');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('NEAT', 'Westport');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Pabu', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Ziryab', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Devil''s Acre', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Mourad', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Sailing Bar', 'Japan');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('BDK Restaurant Bar', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Forgery', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('GreenRiver', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Bon March?', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Forgery', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Soigne Group', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Eastern Standard', 'Boston');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Treasury', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Tony''s Pizza Napoletana', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Cherry Blossom PUB', 'Washington DC');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Must', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Surfcomber', 'Miami');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Best Intentions', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Mora Bar Kitchen', 'United Kingdom');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Cedars Social', 'Dallas');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Backbar', 'Somerville');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('ACME', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Forgery', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('PDT ', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Ration Dram', 'Atlanta');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Wildhawk', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Henri', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Southside Spirit House', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Mister Jiu''s', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Juliet Ristorante', 'Austin');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Amor y Amargo', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Saxon Parole', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Comstock Saloon', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Union Lodge No.1', 'Denver');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Commissary', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Michael Mina Restaurant Group', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Wish Bar', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Trou Normand', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('AMK Kitchen Bar', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Small Victory', 'Austin');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Japonais', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Best Intentions', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Treasury', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Wildhawk', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Miles', 'Brooklyn');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Tippling Hall', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Drago Centro', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('White Oak Tavern', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Mizu Izakaya', 'Denver');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Pouring Ribbons', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Tin Roof Drink Community', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Forgery', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Departure', 'Denver');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Spare Room', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Soigne Group', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Michael Mina Restaurant Group', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Eastern Standard', 'Boston');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Artusi', 'Seattle');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Putnam''s Pub Cooker', 'Brooklyn');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Cocteleria', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Edison', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Burritt Room', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Ancestral Garden Bar Restaurant', 'New Zealand');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Soigne Group', 'Los Angeles');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Local Edition', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Eleven Madison Park', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('A Japanese Kirikata', 'Spain');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('LARK on the Park', 'Dallas');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Caffe Dante', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Cherry Blossom PUB', 'Washington DC');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Fifth Floor', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Harper Rye', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Momofuku', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Siena Tavern', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Bar Siena', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Mourad', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Padrecito', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Cala', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Pacific Cocktail Haven', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Jupiter Olympus', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Olde Bar', 'Philadelphia');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Arthur Ave.', 'Houston');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Biltong Bar', 'Atlanta');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Ida Claire', 'Dallas');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('La Mar Cebicheria Peruana', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Jupiter Olympus', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Expatriate', 'Portland');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('American Express Centurion Lounge', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Novo Restaurant Lounge', 'San Luis Obispo');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Matador', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Jupiter Olympus ', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Mourad', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Henrietta Red', 'Nashville');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Walter Foods', 'Brooklyn');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Michael Mina Restaurant Group', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Tradition', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('House of Blues Anaheim', 'Anaheim');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Whitechapel', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Blackbird', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Park Tavern', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Biltong Bar', 'Atlanta');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Bend Liquor Lounge', 'Miami');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Death Co.', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Drink', 'Boston');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Gin Room', 'St. Louis');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Trick Dog', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Backbar', 'Somerville');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Bonneville', 'Austin');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Treo', 'New Orleans');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Jupiter Olympus', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Maven', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Violet Hour', 'Chicago');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Treo', 'New Orleans');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Lolinda', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Novela', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Bryant''s Cocktail Lounge', 'Milwaukee');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Horsefeather', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Hog Island Oyster Co.', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('PDT', 'New York');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Benjamin Cooper', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Rob Roy, The Hideout', 'Seattle');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Gin Joint', 'Charleston');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Savor Gastropub', 'Dallas');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Hawthorne', 'Boston');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Jupiter Olympus', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Forgery Verso', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Blackbird', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Hotel Monteleone', 'New Orleans');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Trick Dog', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Rickhouse', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Spitfire Bar', 'New Orleans');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
+
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
 VALUES ('Snake Oil Company', 'San Diego');
 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Imperial', 'Portland');
 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Rye', 'San Francisco');
 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Ziryab', 'San Francisco');
 
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Skyfall Lounge', 'Las Vegas');
 
---Данные в Bartender
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Kelly McCarthy');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Union Lodge No.1', 'Denver');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Elizabeth Montana');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('American Oak', 'Alameda');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Jon Morales');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('The Bywater', 'Los Gatos');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Daniel Braganca');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('ABV', 'San Francisco');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Nik Virrey');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Shady Lady Saloon', 'Sacramento');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Kevin Diedrich');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Bar Stella', 'Los Angeles');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Phillip Ricafort');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Cocteleria', 'New York');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Jon Ruiz');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Dale DeGroff');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Rob Roy', 'Seattle');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Ian Julian');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('AQ', 'San Francisco');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Danny Louie');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Dirty Habit', 'San Francisco');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Ken Luciano');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Capo Restaurant', 'Boston');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Caterina Miltenberger');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Presidio Social Club', 'San Francisco');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Caterina Miltenberger');
+INSERT INTO BAR (BAR_NAME, CITY_NAME) 
+VALUES ('Bar Goto', 'New York');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Caterina Miltenberger');
 
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Caterina Miltenberger');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Jose Pereiro');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Kevin Diedrich');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Matt Grippo');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Kate KaiKaew');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Elmer Mejicano');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Kate Grutman');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Naomi Levy');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Chris Morris');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Toby Cecchini');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Scott Baird');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Calvin Marty');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Luis Hernandez');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Matt Grippo');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Laurent');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Tyler Chauvin');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Francesco Lafranconi');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Loris Melis');
-
-INSERT INTO BARTENDER (BARTENDER_NAME) 
-VALUES ('Lauren Sanchez');
-
-
---Данные в CocktailBartender
-
-
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Flor de Amaras', 'Kelly McCarthy');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The Happy Place', 'Elizabeth Montana');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Bon Voyage Pisco Punch', 'Jon Morales');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Still Life of a Pineapple', 'Daniel Braganca');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The Bittered Valley', 'Nik Virrey');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('OH Snap!', 'Kevin Diedrich');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Wabash Avenue Sour', 'Phillip Ricafort');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('IPA Mule', 'Jon Ruiz');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Ritz Cocktail', 'Dale DeGroff');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('King''s Snap the Chocolate Out of You', 'Ian Julian');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The King''s Medicine', 'Matt Grippo');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('A.Nise', 'Kate KaiKaew');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Down the Rabbit Hole', 'Elmer Mejicano');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Peace Daiquiri', 'Kate Grutman');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The King''s Autumn Cobbler', NULL);
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The Mad King', NULL);
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The Robert Baratheon', NULL);
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Lux Shandy', 'Naomi Levy');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Fiona Graham', 'Chris Morris');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Le Sang et Sable', 'Toby Cecchini');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Happiness', 'Danny Louie');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, COCKTAIL_NAME) 
-VALUES ('Fourth Generation', 'Ken Luciano');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, COCKTAIL_NAME) 
-VALUES ('West Coast Punch', 'Caterina Miltenberger');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Mille Miglia', 'Caterina Miltenberger');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Paradiso Sun', 'Caterina Miltenberger');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('Lux Orchard Lemonade', 'Caterina Miltenberger');
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The King''s Spring Daisy', NULL);
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('The King''s Ginger Spiced Punch', NULL);
-
-INSERT INTO COCKTAILBARTENDER (COCKTAIL_NAME, bartender_NAME) 
-VALUES ('War of the Roses', 'Kevin Diedrich');
-
-
---Данные BartenderBar
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Kelly McCarthy', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Jon Morales', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Daniel Braganca', 'Backbar');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Nik Virrey', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Kevin Diedrich', 'Pacific Cocktail Haven');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Phillip Ricafort', 'American Oak');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Jon Ruiz', 'AMK Kitchen Bar');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Dale DeGroff', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Ian Julian', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Danny Louie', 'Mister Jiu''s');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Ken Luciano', 'The Forgery');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Caterina Miltenberger', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Matt Grippo', 'Blackbird');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Kate KaiKaew', 'Osha');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Elmer Mejicano', 'Tony''s Pizza Napoletana');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Kate Grutman', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Naomi Levy', 'Eastern Standard');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Chris Morris', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Toby Cecchini', NULL);
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Scott Baird', 'The Bon Vivants');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Calvin Marty', 'Best Intentions');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('Luis Hernandez', 'White Oak Tavern');
-
-INSERT INTO BARTENDERBAR (BARTENDER_NAME, BAR_NAME) 
-VALUES ('David Ruiz', 'Padrecito');
+--Импорт в таблицу Cocktail
