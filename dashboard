@@ -19,10 +19,10 @@ cursor = connection.cursor()
 
 print("Запит 1: Кіл-ть барменів в кожному барі")
 query1 = """
-select bartenderbar.bar_name,
-count(bartenderbar.bartender_name) as total_bartenders from bartenderbar
-group by bartenderbar.bar_name
-order by total_bartenders desc
+select humanbar.bar_name,
+count(humanbar.human_name) as total_humans from humanbar
+group by humanbar.bar_name
+order by total_humans desc
 """
 cursor.execute(query1)
 
@@ -39,10 +39,10 @@ stolbec = py.plot([bar], auto_open=True, filename='oracle-data')
 print("Запит 2: Співвідношення барменів у кожному барі від їх загальної кіл-ті")
 
 query2 = """
-select bartenderbar.bar_name,
-round(count(bartenderbar.bartender_name)*100/(
-select count(*) from bartenderbar)) as procent_of_total_bartenders from bartenderbar
-group by bartenderbar.bar_name
+select humanbar.bar_name,
+round(count(humanbar.human_name)*100/(
+select count(*) from humanbar)) as procent_of_total_bartenders from humanbar
+group by humanbar.bar_name
 """
 cursor.execute(query2)
 
@@ -59,12 +59,12 @@ procent = py.plot([pie], auto_open=True)
 print("Запит 3: Залежність кіл-ті коктейлів від розположення бару")
 
 query3 = """
-select count(cocktailbartender.cocktail_name) as quantity_of_cocktails,
-bar.location
-from cocktailbartender
-    left join bartenderbar on bartenderbar.bartender_name=cocktailbartender.bartender_name             
-left join bar on bar.bar_name=bartenderbar.bar_name
-group by bar.location
+select count(humancocktail.cocktail_name) as quantity_of_cocktails,
+bar.city_name
+from humancocktail
+    left join humanbar on humanbar.human_name=humancocktail.human_name             
+left join bar on bar.bar_name=humanbar.bar_name
+group by bar.city_name
 order by quantity_of_cocktails desc
 """
 cursor.execute(query3)
