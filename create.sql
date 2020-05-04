@@ -1,39 +1,32 @@
--------------------------
--- Create Cocktails table
--------------------------
-
-CREATE TABLE  Cocktails 
+CREATE TABLE  Cocktail
 (
 cocktail_name varchar(50) NOT NULL PRIMARY KEY
 );
 
--------------------------
--- Create Bartenders table
--------------------------
-
-CREATE TABLE Bartenders
+CREATE TABLE human
 (
-bartender_name varchar(30) PRIMARY KEY
+human_name varchar(50) PRIMARY KEY
 );
 
--------------------------
--- Create Bars table
--------------------------
 
-CREATE TABLE Bars
+CREATE TABLE Bar
 (
-bar_name varchar(30) PRIMARY KEY
-, location varchar(20) 
+bar_name varchar(50) PRIMARY KEY
+, city_name varchar(50) references city(city_name)
 );
 
-create table BartenderBar(
-bartender_name varchar(30) references Bartender(bartender_name),
-bar_name varchar(30) references Bar(bar_name),
-primary key(bartender_name)
+create table humanBar(
+human_name varchar(50) references Human(human_name),
+bar_name varchar(50) references Bar(bar_name),
+primary key(human_name)
 );
 
-create table CocktailBartender(
-cocktail_name varchar(30) references Cocktail(cocktail_name),
-bartender_name varchar(30) references Bartender(bartender_name),
+create table HumanCocktail(
+cocktail_name varchar(50) references Cocktail(cocktail_name),
+bartender_name varchar(50) references human(human_name),
 primary key(cocktail_name)
 );
+
+create table City(
+  city_name varchar(50) primary key
+)
