@@ -23,7 +23,7 @@ primary key(human_name)
 
 create table HumanCocktail(
 cocktail_name varchar(50) references Cocktail(cocktail_name),
-bartender_name varchar(50) references human(human_name),
+human_name varchar(50) references human(human_name),
 primary key(cocktail_name)
 );
 
