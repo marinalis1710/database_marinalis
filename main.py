@@ -33,7 +33,7 @@ for row in cursor:
     print(row)
 
 query3 = """
-select count(chumancocktail.cocktail_name) as quantity_of_cocktails,
+select count(humancocktail.cocktail_name) as quantity_of_cocktails,
 bar.city_name
 from humancocktail
     left join humanbar on humanbar.human_name=humancocktail.human_name             
