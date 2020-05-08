@@ -24,7 +24,8 @@ query2 = """
 select humanbar.bar_name,
 concat(round(count(humanbar.human_name)*100/(
 select count(*) from humanbar)),'%') as procent_of_total_bartenders from humanbar
-group by humanbar.human_name
+group by humanbar.bar_name
+order by procent_of_total_bartenders desc
 """
 cursor.execute(query2)
 print("\n Bar_name - %_quantity_of_bartenders")
