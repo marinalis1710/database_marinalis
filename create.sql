@@ -1,3 +1,7 @@
+create table City(
+  city_name varchar(50) primary key
+);
+
 CREATE TABLE  Cocktail
 (
 cocktail_name varchar(50) NOT NULL PRIMARY KEY
@@ -27,6 +31,4 @@ human_name varchar(50) references human(human_name),
 primary key(cocktail_name)
 );
 
-create table City(
-  city_name varchar(50) primary key
-)
+
